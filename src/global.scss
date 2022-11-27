@@ -8,6 +8,7 @@
 
 :root {
   --ben-birthday-white: #fff;
+  --ben-birthday-gray: #ccc;
   --ben-birthday-padding: 40px;
 }
 
@@ -26,4 +27,14 @@ main {
 
 footer {
   text-align: center;
+
+  a {
+    display: inline-block;
+    margin-right: 10px;
+
+    &:first-of-type {
+      padding: 0 10px;
+      border-right: 1px solid var(--ben-birthday-gray);
+    }
+  }
 }

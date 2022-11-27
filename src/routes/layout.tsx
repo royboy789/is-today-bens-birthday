@@ -14,6 +14,9 @@ export default component$(() => {
         <a href="https://hiroy.io" target="_blank">
           Made with ♡ by RoyBoy789 using Qwik
         </a>
+        <a href="https://github.com/royboy789/is-today-bens-birthday" target={`_blank`}>
+          GitHub Repo
+        </a>
       </footer>
     </>
   );
