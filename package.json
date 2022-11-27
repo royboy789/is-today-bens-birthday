@@ -4,7 +4,9 @@
   "description": "is today bens birthday?",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir dist && cp index.html ./dist/index.html"
+    "clear": "rm -rf ./dist",
+    "copy": "cp index.html ./dist/index.html",
+    "build": "npm run clear && mkdir ./dist && npm run copy"
   },
   "repository": {
     "type": "git",
