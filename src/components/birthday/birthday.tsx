@@ -8,29 +8,44 @@ export default component$(() => {
     const today = new Date();
     const monthDay = `${today.getMonth() + 1}/${today.getDate()}`;
 
-    if ( monthDay !== `4/16` ) {
+    if (monthDay !== `4/16`) {
       return true;
     }
 
     return false;
-  }
+  };
 
   return (
-    <div id="birthday-logic">
+    <div id='birthday-logic'>
       <h1>
-        Is Today <span class="lightning">Ben's</span> Birthday?
+        Is Today <span class='lightning'>Ben's</span> Birthday?
       </h1>
-      <span className="answer" title="hint: there is only 1 day that is not his birthday">
+      <div
+        title='hint: there is only 1 day that is not his birthday'
+        className='answer-wrapper'
+      >
         {isTodayIt() ? (
-          <h3>
-            YES
-          </h3>
+          <div>
+            <h3 className='answer'>YES</h3>
+          </div>
         ) : (
-          <h3>
-            NO
-          </h3>
+          <div>
+            <h3 className='answer'>NO</h3>
+            <p>
+              Don't forget to{' '}
+              <a href='https://twitter.com/benUNC' target={`_blank`}>
+                wish Ben a Happy UN Birthday!
+              </a>
+            </p>
+          </div>
         )}
-      </span>
+      </div>
+      <p>
+        Don't forget to{' '}
+        <a href='https://twitter.com/benUNC' target={`_blank`}>
+          wish Ben a Happy Birthday!
+        </a>
+      </p>
     </div>
   );
 });
