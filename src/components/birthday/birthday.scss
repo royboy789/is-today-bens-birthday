@@ -7,6 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 180px;
 
     @media screen and (min-width: 800px) {
       min-height: 780px;
@@ -17,7 +18,7 @@
     display: inline-block;
     font-size: 5em;
     margin: 0.5em 0;
-    text-shadow: 1px 1px 2px var(--ben-birthday-white);
+    text-shadow: 1px 1px 2px var(--ben-birthday-black);
   }
 
   p {
