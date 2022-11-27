@@ -1,0 +1,19 @@
+{
+  "name": "bens-birthday",
+  "version": "1.0.0",
+  "description": "is today bens birthday?",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir dist && cp index.html ./dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royboy789/is-today-bens-birthday.git"
+  },
+  "author": "Roy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/royboy789/is-today-bens-birthday/issues"
+  },
+  "homepage": "https://github.com/royboy789/is-today-bens-birthday#readme"
+}
