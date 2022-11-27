@@ -18,7 +18,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: 'description',
-      content: 'IS todday Ben\'s birthday? Find out now!',
+      content: 'IS today Ben\'s birthday? Find out now!',
     },
   ],
 };
