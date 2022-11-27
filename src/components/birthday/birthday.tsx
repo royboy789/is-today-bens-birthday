@@ -26,17 +26,11 @@ export default component$(() => {
       >
         {isTodayIt() ? (
           <div>
-            <h3 className='answer'>YES</h3>
+            <h3 className='answer'>YES!</h3>
           </div>
         ) : (
           <div>
-            <h3 className='answer'>NO</h3>
-            <p>
-              Don't forget to{' '}
-              <a href='https://twitter.com/benUNC' target={`_blank`}>
-                wish Ben a Happy UN Birthday!
-              </a>
-            </p>
+            <h3 className='answer'>NO! SAD FACE 😭</h3>
           </div>
         )}
       </div>

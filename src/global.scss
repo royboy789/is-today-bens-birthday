@@ -8,12 +8,18 @@
 
 :root {
   --ben-birthday-white: #fff;
+  --ben-birthday-black: #1b1b1b;
   --ben-birthday-gray: #ccc;
   --ben-birthday-padding: 40px;
 }
 
 body {
-  background: var(--ben-birthday-white);
+  background: var(--ben-birthday-black);
+  color: var(--ben-birthday-white);
+}
+
+a {
+  color: var(--ben-birthday-white);
 }
 
 main, footer {
